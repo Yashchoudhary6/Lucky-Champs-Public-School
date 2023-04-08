@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: yellow;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px pink, 0 0 50px pink, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
+.bounce {
+                height: 50px;
+                overflow: hidden;
+                position: relative;
+                background: #000000;
+                color: #ff0202;
+                border: 1px solid #000000;
+            }
+            
+            .bounce h2 {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                line-height: 50px;
+                text-align: center;
+                -moz-transform: translateX(50%);
+                -webkit-transform: translateX(50%);
+                transform: translateX(50%);
+                -moz-animation: bouncing-text 5s linear infinite alternate;
+                -webkit-animation: bouncing-text 5s linear infinite alternate;
+                animation: bouncing-text 10s linear infinite alternate;
+            }
+            
+            @-moz-keyframes bouncing-text {
+                0% {
+                    -moz-transform: translateX(50%);
+                }
+                100% {
+                    -moz-transform: translateX(-50%);
+                }
+            }
+            
+            @-webkit-keyframes bouncing-text {
+                0% {
+                    -webkit-transform: translateX(50%);
+                }
+                100% {
+                    -webkit-transform: translateX(-50%);
+                }
+            }
+            
+            @keyframes bouncing-text {
+                0% {
+                    -moz-transform: translateX(50%);
+                    -webkit-transform: translateX(50%);
+                    transform: translateX(50%);
+                }
+                100% {
+                    -moz-transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                }
+            }
+</style>
+</head>
+<body>
+
+<h1 class="glow">Lucky Champs Public School</h1>
+<div class="bounce">
+        <h2> Admission Open! Hurry Seats will be fill soon.</h2>  </div>
+        <h3 style="color:gold">Lucky Champs Public School is situated in Madhya Pradesh's capital Bhopal. More 
+        specificely in Bhopal it is in Bairagarh Kalan. It's a School you would be willing to check out once in 
+        your lifetime because it's focuses on studies very much, It's a stateboard School of MP. Overhere good 
+        quality of teachers teach the students with the aim of they not just quality the exam but crack it with 
+        very grade that toppers do. It's Principal Mrs. Yogita Wadhwani is also super awesome because she provide 
+        a variety of activities that students can engaged with, and lower teachers students ratio so that they can
+        see what every child is doing. It's an Hindi and English Medium School.All children are under CCTV survillience. 
+        </h3>    
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: left;color: gold;">Logo</h1>
+        <img src="download.jpg" alt="Lucky Champs Logo" width="500" height="600">
+        <h1 style="text-align: left;color: gold;">School</h1>
+        <img src="school.jpg" alt="Lucky Champs Logo" width="500" height="600">
+        <h1 style="text-align: left;color: gold;">Activities</h1>
+        <img src="Activities.jpg" alt="Lucky Champs Logo" width="500" height="600">
+        <h2 style="text-align: right;color: gold;"> Contact:-98930 52720</h2>
+        <h2 style="color: gold;text-align: right;">Yogita Wadhwani (Please Call only between 0800 hrs to 1300 hrs)</h2>
+    </body>
+</html>
